@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(./fonts/Roboto/Roboto-Regular.ttf);
+}
+main p {
+  color: black;
+  font-weight: bold;
+  margin: 10px 10px 0px 10px;
+}
+
+a {
+  font-size: medium;
+}
+
+.botonEnviar {
+  width: 100px;
+  height: 40px;
+  background: blue;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  left: 70px;
+  border-radius: 7px;
+}
+
+main {
+  background: lightskyblue;
+  padding: 10px;
+  width: 100%;
+  font-family: Roboto;
+}
+
+/*# sourceMappingURL=main.css.map */

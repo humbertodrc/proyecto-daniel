@@ -1,9 +1,11 @@
+/*_reset*/
 * {
     margin: 0;
     padding: 0;
     box-sizing:border-box ;
 }
 
+/* _fonts*/
 @font-face {
     font-family: Roboto;
     src: url(./fonts/Roboto/Roboto-Regular.ttf);
@@ -134,6 +136,7 @@ header {
     }
 }
 
+/*_layout*/
 main {
     background: lightskyblue;
     padding: 10px;
@@ -149,12 +152,14 @@ main div {
     text-align: center;
 }
 
+/*_typo*/
 main p {
     color: black;    
     font-weight: bold;
     margin: 10px 10px 0px 10px;       
 }
 
+/*_typo*/
 a {
     font-size:medium;
 }
@@ -240,6 +245,7 @@ form .estiloTextArea {
     }
 }
 
+/* _button*/
 .botonEnviar {
     width: 100px;
     height: 40px;
