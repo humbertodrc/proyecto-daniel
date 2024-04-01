@@ -143,11 +143,11 @@ main {
     width: 100%; 
     font-family: Roboto;
 }
-
+/*_layout*/
 main div {
     margin: 20px;
 }
-
+/*_layout*/
 .img__center {   
     text-align: center;
 }
@@ -167,7 +167,7 @@ a {
 main a:visited {
     color: black;
 }
-
+/*_layout*/
 .img2 {
         margin-left: 30px;    
     
@@ -256,28 +256,28 @@ form .estiloTextArea {
     left: 70px;
     border-radius: 7px;
 }
-
+/*_layout*/
 .bloqueImg {
     display: flex;
     justify-content:space-evenly;
     flex-wrap: wrap;
     flex-direction: row;
 }
-
+/*_layout*/
 .img3 {
     margin: 2%;
 }
-
+/*_layout*/
 .img4 {
     margin: 20px;
 }
-
+/*_layout*/
 .oferta {
     background: red;
     color: yellow;
     font-weight: bold;
 }
-
+/*_layout*/
 .aviso__ofertas {
     font-size: larger;
     color: yellow;

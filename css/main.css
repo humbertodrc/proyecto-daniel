@@ -36,4 +36,46 @@ main {
   font-family: Roboto;
 }
 
+main div {
+  margin: 20px;
+}
+
+.img__center {
+  text-align: center;
+}
+
+.img2 {
+  margin-left: 30px;
+}
+
+.bloqueImg {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.img3 {
+  margin: 2%;
+}
+
+.img4 {
+  margin: 20px;
+}
+
+.oferta {
+  background: red;
+  color: yellow;
+  font-weight: bold;
+}
+
+.aviso__ofertas {
+  font-size: larger;
+  color: yellow;
+  background: black;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 /*# sourceMappingURL=main.css.map */
