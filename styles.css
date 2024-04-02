@@ -46,7 +46,7 @@ header {
     justify-self: center;
     
 }
-/*header*/
+/*_navigation*/
 .dropbtn {
     background-color: rgb(85, 85, 243);
     color: white;
@@ -57,17 +57,17 @@ header {
     border-radius: 5px;
     cursor: pointer;
 }
-
+/*_navigation*/ 
 .dropdown:hover .dropbtn {
     color: black;
 }
-
+/*_navigation*/
 .dropdown {
     text-align: center;
     position: relative;
     display: block;
 }
-  
+/*_navigation*/
 .dropdown-content {
     display: none;
     position: absolute;
@@ -77,19 +77,19 @@ header {
     border: none;
     text-align: center;  
 }
-
+/*_navigation*/
 .dropdown-content a {
     color: white;
     padding: 6px 0;
     text-decoration: none;
     display: block;
 }
-  
+/*_navigation*/  
 .dropdown-content a:hover {
     color: black;
     font-weight: bold;
 }
-  
+/*_navigation*/  
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -108,6 +108,7 @@ header {
         ;
         align-items: center;
     }
+    /*_navigation*/ 
     .barranav ul {
         list-style-type: none; 
         display: flex;   
@@ -117,7 +118,7 @@ header {
         margin: 0;  
         padding: 0;
     }
-    
+    /*_navigation*/
     .barranav ul a {
         font-family: Arial, Helvetica, sans-serif; 
         font-weight: bold;
@@ -131,7 +132,7 @@ header {
         color: black ;
     }
 }
-
+/*_header*/
 @media (max-width:900px){
     .barranav {
         display: none;

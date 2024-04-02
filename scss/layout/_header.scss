@@ -2,20 +2,13 @@ header {
     background: $background-secondary; 
 }
 
-@mixin mobile {
-    @media screen and (max-width:900px) {
-        .barranav {
-            display: none;
-        }
-        .grilla {
-            display: grid;
-            grid-template-columns: 70% 30%;
-            grid-template-rows: 80px;
-            grid-template-areas: 
-            "logo navbar"
-            ;
-            align-items: center;
-        }
+.grilla {
+    display: grid;
+    grid-template-rows: 80px;
+    grid-template-areas: 
+    "logo navbar"
+    ;
+    align-items: center;
         .header__logo {
             grid-area: logo;
         }
@@ -24,25 +17,35 @@ header {
             width: 100%;
             height: 100%;
             justify-self: center;
-        }
+        }     
+}
 
+@mixin mobile {
+    @media (max-width:900px) {
+        @content;
     }
 }
 
-
-@mixin pc {
-    @media screen and (min-width:900px) {
-        .dropdown {
-            display: none;
-        } 
-        .grilla {
-            display: grid;
-            grid-template-columns: 30% 70%;
-            grid-template-rows: 80px;
-            grid-template-areas: 
-            "logo navbar"
-            ;
-            align-items: center;
-        }  
+@mixin desktop {
+    @media (min-width:900px) {
+        @content; 
     }
+}
+
+@include mobile() {
+    .grilla {
+        grid-template-columns: 70% 30%;
+    }
+    .barranav {
+        display: none;
+    }
+}
+
+@include desktop() {
+    .grilla {
+        grid-template-columns: 30% 70%;    
+    } 
+    .dropdown {
+        display: none;
+    } 
 }

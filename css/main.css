@@ -82,4 +82,97 @@ header {
   background: rgb(112, 112, 234);
 }
 
+.grilla {
+  display: grid;
+  grid-template-rows: 80px;
+  grid-template-areas: "logo navbar";
+  align-items: center;
+}
+.grilla .header__logo {
+  grid-area: logo;
+}
+.grilla .header__navar {
+  grid-area: navbar;
+  width: 100%;
+  height: 100%;
+  justify-self: center;
+}
+
+@media (max-width: 900px) {
+  .grilla {
+    grid-template-columns: 70% 30%;
+  }
+  .barranav {
+    display: none;
+  }
+}
+@media (min-width: 900px) {
+  .grilla {
+    grid-template-columns: 30% 70%;
+  }
+  .dropdown {
+    display: none;
+  }
+}
+.dropdown {
+  text-align: center;
+  position: relative;
+  display: block;
+}
+.dropdown .dropbtn {
+  background-color: rgb(85, 85, 243);
+  color: white;
+  font-weight: bold;
+  padding: 10px 16px;
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.dropdown .dropbtn .dropdown-content {
+  display: none;
+  position: absolute;
+  right: 25%;
+  background-color: rgb(85, 85, 243);
+  min-width: 120px;
+  border: none;
+  text-align: center;
+}
+.dropdown .dropbtn .dropdown-content a {
+  color: white;
+  padding: 6px 0;
+  text-decoration: none;
+  display: block;
+}
+.dropdown .dropbtn .dropdown-content a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.dropdown:hover .dropbtn {
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.barranav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: last baseline;
+  margin: 0;
+  padding: 0;
+}
+.barranav ul a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
 /*# sourceMappingURL=main.css.map */
