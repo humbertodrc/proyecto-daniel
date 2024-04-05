@@ -1,19 +1,19 @@
-footer {
+footer{
     background: rgb(112, 112, 234); 
     width: 100%; 
     font-family: Roboto;
     padding: 1%;
-    __contenedor{
+    .footer__contenedor{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         margin-top: 5px;
         margin-left: 5%;
-        __lista{
+        .footer__lista{
             margin-left: 4%;
             list-style-type:square;
         }
-        __iconos{
+        .footer__iconos{
             margin-right: 10%;
         }
     }
