@@ -8,3 +8,21 @@
     left: 70px;
     border-radius: 7px;
 }
+
+.labelCV{
+    display: flex;
+    margin: 20px auto;
+    background: $background-button;
+    color: $color-text-button;
+    width: 150px;
+    height: 40px;
+    border: 5px;
+    border-radius: 10px;
+    justify-content: center;
+    font-weight: bold;   
+    align-items: center;
+}
+
+.inputCV {
+    display: none;
+}

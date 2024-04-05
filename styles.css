@@ -30,7 +30,7 @@ header {
 .header__logo {
     grid-area: logo;
 }
-
+/*_layout*/
 .img0 {
     width: 100%;
     height: 100%;
@@ -127,7 +127,7 @@ header {
         padding-left: 12px;
         padding-right: 12px;
     } 
-    
+     /*_navigation*/
     .barranav ul a:hover {
         color: black ;
     }
@@ -167,35 +167,35 @@ a {
     font-size:medium;
 }
 
+/*_typo*/
 main a:visited {
     color: black;
 }
 /*_layout*/
 .img2 {
-        margin-left: 30px;    
-    
+        margin-left: 30px;       
 }
-
+/*_typo*/
 h3 {
     display: flex;
     align-items: center;
     margin: auto 0px;
 }
 
-
+/*_typo*/
 main h1{
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
+/*_layout*/
 main ul{
     list-style-type:disc;
 }
-
+/*_layout*/
 main ul li{
     margin-top: 10px;
 }
-
+/* _button*/
 .labelCV{
     display: flex;
     margin: 20px auto;
@@ -209,34 +209,34 @@ main ul li{
     font-weight: bold;   
     align-items: center;
 }
-
+/* _button*/
 .inputCV {
     display: none;
 }
-
+/*_forms*/
 main label {
     display: inline-block;
     width: 70px;
 }
-
+/*_forms*/
 .textArea {
     vertical-align:top ;
 }
-
+/*_forms*/
 form {
     padding-left: 2%;
 }
-
+/*_forms*/
 form input {
     width: 400px;
     height: 25px;
 }
-
+/*_forms*/
 form .estiloTextArea {
     width: 400px;
     height: 200px;
 }
-
+/*_forms*/
 @media (max-width: 500px){
     form input {
         width: 250px;
@@ -289,14 +289,14 @@ form .estiloTextArea {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-
+/*_footer*/
 footer {
     background: rgb(112, 112, 234); 
     width: 100%; 
     font-family: Roboto;
     padding: 1%;
 }
-
+/*_footer*/
 .footer__contenedor{
     display: flex;
     flex-wrap: wrap;
@@ -304,28 +304,28 @@ footer {
     margin-top: 5px;
     margin-left: 5%;
 }
-
+/*_footer*/
 .footer__lista{
     margin-left: 4%;
     list-style-type:square;
 }
-
+/*_footer*/
 .footer__iconos{
     margin-right: 10%;
 }
-
+/*_footer*/
 @media (max-width: 900px){
     .footer__iconos{
         width: 100%;
         text-align: center;
     }
 }
-
+/*_footer*/
 footer a{
     color: white;
     margin-left: 15px;
 }
-
+/*_footer*/
 footer a:visited {
     color: darkolivegreen;
 }

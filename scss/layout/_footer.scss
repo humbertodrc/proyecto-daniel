@@ -1,0 +1,40 @@
+footer {
+    background: rgb(112, 112, 234); 
+    width: 100%; 
+    font-family: Roboto;
+    padding: 1%;
+    __contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 5px;
+        margin-left: 5%;
+        __lista{
+            margin-left: 4%;
+            list-style-type:square;
+        }
+        __iconos{
+            margin-right: 10%;
+        }
+    }
+    a{
+        color: white;
+        margin-left: 15px;
+        &:visited {
+            color: darkolivegreen;
+        }
+    }
+}
+
+@mixin footer {
+    @media (max-width: 900px) {
+        @content; 
+    }
+}
+
+@include footer() {
+    .footer__iconos{
+        width: 100%;
+        text-align: center;
+    }
+}
