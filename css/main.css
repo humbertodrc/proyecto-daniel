@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: Roboto;
-  src: url(./fonts/Roboto/Roboto-Regular.ttf);
+  src: url(/fonts/Roboto/Roboto-Regular.ttf);
 }
 main p {
   color: black;
@@ -157,7 +157,7 @@ header {
   .grilla {
     grid-template-columns: 30% 70%;
   }
-  .dropdown {
+  .dropbtn {
     display: none;
   }
 }
@@ -166,7 +166,8 @@ header {
   position: relative;
   display: block;
 }
-.dropdown .dropbtn {
+
+.dropbtn {
   background-color: rgb(85, 85, 243);
   color: white;
   font-weight: bold;
@@ -176,7 +177,8 @@ header {
   border-radius: 5px;
   cursor: pointer;
 }
-.dropdown .dropbtn .dropdown-content {
+
+.dropdown-content {
   display: none;
   position: absolute;
   right: 25%;
@@ -185,19 +187,15 @@ header {
   border: none;
   text-align: center;
 }
-.dropdown .dropbtn .dropdown-content a {
+.dropdown-content .link {
   color: white;
   padding: 6px 0;
   text-decoration: none;
   display: block;
 }
-.dropdown .dropbtn .dropdown-content a:hover {
+.dropdown-content .link:hover {
   color: black;
   font-weight: bold;
-}
-
-.dropdown:hover .dropbtn {
-  color: black;
 }
 
 .dropdown:hover .dropdown-content {
@@ -221,7 +219,7 @@ header {
   padding-left: 12px;
   padding-right: 12px;
 }
-.barranav ul:hover {
+.barranav ul a:hover {
   color: black;
 }
 
