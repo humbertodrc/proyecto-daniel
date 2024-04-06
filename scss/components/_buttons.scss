@@ -21,8 +21,20 @@
     justify-content: center;
     font-weight: bold;   
     align-items: center;
+    cursor: pointer;
 }
 
 .inputCV {
     display: none;
+}
+
+.botonOferta{
+    background: #eab412;
+    padding: 12px;
+    border-radius: 10px;
+    margin-right: 3px;
+    cursor: pointer;
+    &:hover {
+        background: #f6ce58;
+    }
 }
