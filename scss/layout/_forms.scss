@@ -5,31 +5,30 @@ form {
         width: 70px;
     }
     input {
-        width: 400px;
+        width: 250px;
         height: 25px;
     }
     .textArea {
         vertical-align:top ;
     }
     .estiloTextArea {
-        width: 400px;
-        height: 200px;
+        width: 250px;
+        height: 300px;
     }
 }
 
 @mixin formulario {
-    @media (max-width:500px) {
+    @media (min-width:550px) {
         @content;
     }
 }
 
 @include formulario() {
-    input {
-        width: 250px;
-        height: 25px;
+    form input {
+        width: 400px;
     }
-    .estiloTextArea {
-        width: 250px;
-        height: 250px;
+    form .estiloTextArea {
+        width: 400px;
+        height: 200px;
     }
 }

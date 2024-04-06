@@ -231,25 +231,24 @@ form label {
   width: 70px;
 }
 form input {
-  width: 400px;
+  width: 250px;
   height: 25px;
 }
 form .textArea {
   vertical-align: top;
 }
 form .estiloTextArea {
-  width: 400px;
-  height: 200px;
+  width: 250px;
+  height: 300px;
 }
 
-@media (max-width: 500px) {
-  input {
-    width: 250px;
-    height: 25px;
+@media (min-width: 550px) {
+  form input {
+    width: 400px;
   }
-  .estiloTextArea {
-    width: 250px;
-    height: 250px;
+  form .estiloTextArea {
+    width: 400px;
+    height: 200px;
   }
 }
 footer {
@@ -277,7 +276,7 @@ footer a {
   margin-left: 15px;
 }
 footer a:visited {
-  color: darkolivegreen;
+  color: black;
 }
 
 @media (max-width: 900px) {

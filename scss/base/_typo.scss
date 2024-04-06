@@ -7,7 +7,7 @@ main p {
 a {
     font-size:medium;
     &:visited {
-        color: black;
+        color: $color-text-links-hover-visited;
     }
 }
 

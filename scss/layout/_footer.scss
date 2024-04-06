@@ -1,5 +1,5 @@
 footer{
-    background: rgb(112, 112, 234); 
+    background: $background-secondary; 
     width: 100%; 
     font-family: Roboto;
     padding: 1%;
@@ -18,10 +18,10 @@ footer{
         }
     }
     a{
-        color: white;
+        color: $color-text-links;
         margin-left: 15px;
         &:visited {
-            color: darkolivegreen;
+            color: $color-text-links-hover-visited;
         }
     }
 }
