@@ -235,6 +235,11 @@ header {
   background: #f6ce58;
 }
 
+#textBotonOferta {
+  color: black;
+  font-weight: normal;
+}
+
 form {
   padding-left: 2%;
 }
