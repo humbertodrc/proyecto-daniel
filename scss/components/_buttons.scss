@@ -1,7 +1,7 @@
 .botonEnviar {
     width: 100px;
     height: 40px;
-    background: $background-button;
+    background: linear-gradient(to left, $background-button,$background-button-second,$background-button);
     color: $color-text-button;
     font-weight: bold;
     position: relative;
@@ -12,7 +12,7 @@
 .labelCV{
     display: flex;
     margin: 20px auto;
-    background: $background-button;
+    background: linear-gradient(to left, $background-button,$background-button-second,$background-button);
     color: $color-text-button;
     width: 150px;
     height: 40px;

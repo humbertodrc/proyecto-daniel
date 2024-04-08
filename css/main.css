@@ -54,6 +54,9 @@ main div {
   max-height: 80px;
   padding-left: 2%;
 }
+.img0:hover {
+  transform: scale(1.05);
+}
 
 .img2 {
   margin-left: 30px;
@@ -78,8 +81,19 @@ main div {
   background: red;
   color: yellow;
   font-weight: bold;
+  animation-name: oferta-decoration;
+  animation-iteration-count: infinite;
+  animation-duration: 2.5s;
 }
 
+@keyframes oferta-decoration {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .aviso__ofertas {
   font-size: larger;
   color: yellow;
@@ -173,6 +187,10 @@ header {
   display: block;
 }
 
+.dropdown:hover .dropbtn {
+  color: black;
+}
+
 .barranav ul {
   list-style-type: none;
   display: flex;
@@ -197,7 +215,7 @@ header {
 .botonEnviar {
   width: 100px;
   height: 40px;
-  background: blue;
+  background: linear-gradient(to left, blue, rgb(46, 3, 188), blue);
   color: white;
   font-weight: bold;
   position: relative;
@@ -208,7 +226,7 @@ header {
 .labelCV {
   display: flex;
   margin: 20px auto;
-  background: blue;
+  background: linear-gradient(to left, blue, rgb(46, 3, 188), blue);
   color: white;
   width: 150px;
   height: 40px;

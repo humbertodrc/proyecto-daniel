@@ -19,6 +19,9 @@ main div {
     max-width: 300px;
     max-height: 80px;
     padding-left: 2%;
+    &:hover{
+        transform: scale(1.05);
+    }
 }
 
 .img2 {
@@ -45,6 +48,18 @@ main div {
     background: $background-oferta;
     color: $color-text-oferta;
     font-weight: bold;
+    animation-name: oferta-decoration;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+}
+
+@keyframes oferta-decoration {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 .aviso__ofertas {

@@ -41,6 +41,10 @@
     display: block;
 }
 
+.dropdown:hover .dropbtn {
+    color: black;
+}
+
 .barranav {
     ul {
         list-style-type: none; 
