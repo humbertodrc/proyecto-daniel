@@ -16,8 +16,43 @@ h1{
     padding-bottom: 15px;
 }
 
-h3 {
-    display: flex;
-    align-items: center;
-    margin: auto 0px;
+.text-xlarge{
+    font-size:x-large;
+    font-weight: normal;
+}
+
+.text-larger{
+    font-size:larger;
+    font-weight: normal;
+}
+
+.text-footer{
+    margin-bottom: 8px;
+}
+
+.oferta {
+    background: $background-oferta;
+    color: $color-text-oferta;
+    font-weight: bold;
+    animation-name: oferta-decoration;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+}
+
+@keyframes oferta-decoration {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.aviso__ofertas {
+    font-size: larger;
+    color: $color-text-oferta;
+    background: black;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }

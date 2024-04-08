@@ -44,33 +44,6 @@ main div {
     margin: 20px;
 }
 
-.oferta {
-    background: $background-oferta;
-    color: $color-text-oferta;
-    font-weight: bold;
-    animation-name: oferta-decoration;
-    animation-iteration-count: infinite;
-    animation-duration: 2.5s;
-}
-
-@keyframes oferta-decoration {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-}
-
-.aviso__ofertas {
-    font-size: larger;
-    color: $color-text-oferta;
-    background: black;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
 main ul{
     list-style-type:disc;
     li{
