@@ -24,6 +24,7 @@
     min-width: 120px;
     border: none;
     text-align: center;
+    z-index: 1;
     .link {
         color: $color-text-links;
         padding: 6px 0;
@@ -33,8 +34,7 @@
             color: $color-text-links-hover-visited;
             font-weight: bold;
         }
-    } 
-    
+    }  
 }
   
 .dropdown:hover .dropdown-content {

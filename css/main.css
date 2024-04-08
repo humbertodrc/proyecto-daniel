@@ -171,6 +171,7 @@ header {
   min-width: 120px;
   border: none;
   text-align: center;
+  z-index: 1;
 }
 .dropdown-content .link {
   color: white;
