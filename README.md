@@ -4,3 +4,4 @@ Corrección del header completo y fuente.
 Corrección del footer, linkeo de main.scss en todas las pages.
 Corrección media query en formulario, agrego variables.
 Corrección sugerida por tutor, se saca button anidado en a.
+Trabajo en SEO, corrijo uso de encabezados, formato imagenes, etiquetas meta.
