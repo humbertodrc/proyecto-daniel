@@ -5,7 +5,7 @@
 }
 
 @font-face {
-  font-family: Roboto;
+  font-family: "Roboto";
   src: url(../../fonts/Roboto/Roboto-Regular.ttf);
 }
 main p {
@@ -24,7 +24,7 @@ a:visited {
 h1 {
   padding-top: 15px;
   padding-bottom: 15px;
-  font-family: Roboto;
+  font-family: "Roboto";
 }
 
 .text-xlarge {
