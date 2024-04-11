@@ -4,12 +4,8 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: Roboto;
-  src: url(/fonts/Roboto/Roboto-Regular.ttf);
-}
 main {
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 main p {
