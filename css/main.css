@@ -297,7 +297,7 @@ form .estiloTextArea {
 footer {
   background: rgb(112, 112, 234);
   width: 100%;
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 1%;
 }
 footer .footer__contenedor {
